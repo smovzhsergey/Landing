@@ -49,7 +49,7 @@ var config = {
   },
   tunnel: true,
   host: 'localhost',
-  port: 7000,
+  port: 7700,
   logPrefix: "newProject"
 };
 
@@ -74,7 +74,7 @@ gulp.task('style:build', function () {
     .pipe(sourcemaps.init())
     .pipe(sass.sync().on('error', sass.logError))
     .pipe(prefixer())
-    .pipe(concatCss("styles.css"))
+    .pipe(concatCss("style.css"))
     //.pipe(cssmin())
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(path.build.css))
