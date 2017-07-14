@@ -716,7 +716,7 @@ footer{
 	
 	#our_work h4{
 		background: url(../img/plane.png) no-repeat 50% 50%;
-		font-size: 1.5em;
+		font-size: 1.4em;
 		padding-top: 40%;
 	}
 	
@@ -918,7 +918,7 @@ footer{
 	
 	#our_work h4{
 		background: none;
-		font-size: 1.625em;
+		font-size: 1.4em;
 		padding: 15% 0 5px 0;
 	}
 	
@@ -940,7 +940,9 @@ footer{
 	#our_work p, #our_work h4{
 		width: 100%;
 	}
-	
+	.proj_name{
+		width: 100%;
+	}
 	#our_work h4{
 		padding: 5px 0;
 	}
