@@ -79,6 +79,10 @@ ul {
   margin: 0 auto;
 }
 
+.visible {
+  display: block;
+}
+
 /********************************
 			HEADER
 ********************************/
@@ -749,6 +753,12 @@ footer {
 
   .form_wrap form {
     width: 90%;
+  }
+}
+
+@media only screen and (min-width: 641px) {
+  .main_navy {
+    display: block !important;
   }
 }
 
